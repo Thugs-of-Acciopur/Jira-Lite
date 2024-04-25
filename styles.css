@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board{
+    display: flex; 
+    justify-content: space-around;
+    padding: 10px;;
+}
+
+.column{
+    width: 30%;
+    border: 2px solid  grey;
+    padding: 10px;
+    text-align: center;
+    min-height: 400px;
+}
+
+.card{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    color: wheat;
+}
